@@ -7,6 +7,7 @@ Neighboring_Nodes:
   - Written in Python
   - Designed to print a visualization for ease of testing
   - Very heavily commented to make logic clear for design choices
+  - The instructions had no requirement to save pattern into the grid - simply the coordinates and index for each value. Therefore the pattern does not save to the individual grid nodes but can be updated to do so.
   
 - ASSUMPTIONS AND DESIGN CHOICES:
   - No default is set for debug mode. True or False must be passed in.
