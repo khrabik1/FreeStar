@@ -26,7 +26,7 @@ class Neighboring_Nodes:
         #If a negative is passed, the number is inverted.
         
         if size > 0:
-            return size
+            return round(size)
         elif size == 0:
             print("Cannot initialize grid with value 0. Try running again.")
             sys.exit(0)
