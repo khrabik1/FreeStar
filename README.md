@@ -18,11 +18,11 @@ Neighboring_Nodes:
   - In the case that the origin is too close to the edge for a full diagram (i.e. with part of it "falling off" the edges), I do not move to a different origin point. Rather, I allow the image to fall off. This does NOT save out-of-boundary coordinates, nor does it bomb out. It is simply an error handling design choice.
   - For example, a "Diamond" with an origin point near an edge will return something like this (below)
   
-  [0 0 0 0 0 0]
-  [1 0 0 0 0 0]
-  [1 1 0 0 0 0]
-  [1 0 0 0 0 0]
-  [0 0 0 0 0 0]
+  [0 0 0 0 0 0]<br />
+  [1 0 0 0 0 0]<br />
+  [1 1 0 0 0 0]<br />
+  [1 0 0 0 0 0]<br />
+  [0 0 0 0 0 0]<br />
   
   - The origin and the rest of the design (cross, diamond, square) are marked with '1' for visualizations. the rest of the grid is marked with '0'
   
