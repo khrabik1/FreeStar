@@ -26,7 +26,7 @@ Neighboring_Nodes:
   
   - The origin and the rest of the design (cross, diamond, square) are marked with '1' for visualizations. the rest of the grid is marked with '0'
   
-  SQL Challenge:
+ SQL Challenge:
   
-  - I wanted to stay away from any "flavor" specific language as much as possible, so this is written in "straight sql" and will most likely run in any sql server, but for reference (if there's an issue) I'm using MySQL.
+ - I wanted to stay away from any "flavor" specific language as much as possible, so this is written in "straight sql" and will most likely run in any sql server, but for reference (if there's an issue) I'm using MySQL.
   
