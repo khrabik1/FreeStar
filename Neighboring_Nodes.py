@@ -117,6 +117,8 @@ class Neighboring_Nodes:
                 for item in row:
                     if item.index == index:
                         return item.coords
+                    
+            return (0,0)
         
     
     def visual_representation(self, alls, coords):
@@ -252,7 +254,7 @@ testgrid.construct_grid()
 #Also, if you omit m, it defaults to 1.
 #Also helpful: indexes go left to right and start at 1, so the end of the first row is
 #index 8.
-testgrid.find_neighbors('Diamond', coords=(4,4), index=37, m=2)
+testgrid.find_neighbors('Diamond', coords=(4,4), index=37, m=1)
 
 
 ###############################################################################
